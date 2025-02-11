@@ -13,7 +13,21 @@ Model Deployment and API Development: Deploy models as a Flask API and container
 
 Dashboard Development: Build an interactive dashboard to visualize fraud insights.
 
+
+
+
+
 Folder Structure
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -73,22 +87,131 @@ fraud-detection-project/
 │
 ├── README.md                     # Project documentation
 └── requirements.txt              # Python dependencies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Setup Instructions
 1. Clone the Repository
-git clone https://github.com/your-username/fraud-detection-project.git
+git clone https://github.com/aberamen/fraud-detection-project.git
 cd fraud-detection-project
-2. Install Dependencies
+
+
+
+
+
+
+
+
+3. Install Dependencies
 
 pip install -r requirements.txt
 3. Run the Project
 Task 1: Data Analysis and Preprocessing
+
+
+
+
+
+
+
 Run the preprocessing scripts:
 
 
 python src/preprocessing/handle_missing_values.py
+
 python src/preprocessing/clean_data.py
+
 python src/preprocessing/merge_datasets.py
+
 python src/feature_engineering/time_based_features.py
+
 Explore the data using the notebooks in notebooks/.
 
 Task 2: Model Building and Training
@@ -103,8 +226,7 @@ python src/models/evaluate_model.py
 Task 3: Model Explainability
 Use SHAP and LIME to explain model predictions:
 
-bash
-Copy
+
 python src/explainability/shap_explain.py
 python src/explainability/lime_explain.py
 Task 4: Model Deployment and API Development
